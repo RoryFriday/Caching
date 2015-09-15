@@ -11,12 +11,13 @@ namespace Tyresales.Web.Sitefinity.Service.Caching
 
         static CacheFactory()
         {
-            manager = CreateCacheManager();
+            manager = CreateCacheManager(); 
         }
-
+         
         private static ICacheManager CreateCacheManager()
         {
-            return new CacheManager();
+            // some comments
+            return new CacheManager(); 
         }
     }
 }
